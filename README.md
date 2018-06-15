@@ -138,6 +138,20 @@ These are in no particular order, so feel free to jump around and solve the prob
         => 4
     ```
 
+1. Subtract the row mean from each row of a two-dimensional array (element by element).
+
+    ```
+    x = np.array([
+        [0, 1, 0, 1],
+        [1, 1, 1, 1],
+        [1, 2, 3, 4]])
+    subtract_row_means(x)
+        => np.array([
+      [-0.5,  0.5, -0.5,  0.5],
+      [ 0. ,  0. ,  0. ,  0. ],
+      [-1.5, -0.5,  0.5,  1.5]])
+   ```
+
 1.  Write a function that converts an  array of shape `(n, 2)` representing Cartesian coordinates of `n` points into a new `(n, 2)` array containing the polar coordinates of those points.
 
     ```
@@ -145,7 +159,6 @@ These are in no particular order, so feel free to jump around and solve the prob
     cartesian_to_polar(x)
         => np.array([1, np.pi], [1, 0], [np.sqrt(2), np.pi / 2])
     ```
-
 
 1.  Given an array `x`, and a two-dimensional array `M` with the same number of columns as the length of `x`, find the row in `M` that makes the smallest angle with `x`.
 
