@@ -1,15 +1,17 @@
 # Numpy Puzzles
 
-The following is a list of short problems you can use to practice your numpy programming.  Some of them we made up, and some of them come from the following large list:
+The following is a list of short problems you can use to practice your numpy programming.  Some of them we made up, and some of them come from the following large list (\*):
 
 [100 Numpy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
 
-There is also a work in progress version of this for Pandas, if you are interested in that:
+You may have to look up some numpy methods we didn't cover in class to solve some of the exercises.  If you ever find youself thinking
 
-[100 Pandas Exercises](https://github.com/ajcr/100-pandas-puzzles)
+> I wonder if there's just a fuction in `numpy` that does <thing>
+
+there is usually a pretty good chance that there actually is.  Don't hesitate to expore the numpy documenation and stack-overflow, this is a very improtant part a building your knowlege base as a python user.
 
 
-# Puzzles
+## Puzzles
 
 These are in no particular order, so feel free to jump around and solve the problems that seem most appealing / benificial / fun for you.  Some of these depend on knowledge that we will cover in class later in the course, so feel free to skip problems and come back to them if anything is unfamiliar to you!
 
@@ -82,34 +84,59 @@ These are in no particular order, so feel free to jump around and solve the prob
     ```
 
 
-1.  Given a number `n`, create a matrix of zeros, but with ones on the diagonals immediately below and above the main diagonal.  For example, when `n=5`, you should create the following matrix
+1. Write a dunction that creates a square two-dimensional array of zeros, but with ones on the diagonals immediately below and above the main diagonal.  For example, when `n=5`, you should create the following two-dimensional array
 
     ```
-    [
+    ones_above_and_below_diagonal(5)
+        => np.array([
       [0, 1, 0, 0, 0],
       [1, 0, 1, 0, 0],
       [0, 1, 0, 1, 0],
       [0, 0, 1, 0, 1],
       [0, 0, 0, 1, 0]
-    ]
+    ])
     ```
 
 
-1.  Write a function that creates a square matrix with a checkerboard pattern of 0's and 1's of any given size.
+1.  Write a function that creates a square two-dimensional array with a checkerboard pattern of 0's and 1's of any given size.
 
     ```
-    [
+    checkerboard(5)
+        => np.aray([
       [1, 0, 1, 0, 1],
       [0, 1, 0, 1, 0],
       [1, 0, 1, 0, 1],
       [0, 1, 0, 1, 0],
       [1, 0, 1, 0, 1],
-    ]
+    ])
     ```
 
+1. Write a function that creates a square two-dimensional array with ones around the border, and zeros in the interior.
+
+
+    ```
+    ones_border(5)
+        => array([
+      [1, 1, 1, 1, 1],
+      [1, 0, 0, 0, 1],
+      [1, 0, 0, 0, 1],
+      [1, 0, 0, 0, 1],
+      [1, 1, 1, 1, 1]
+    ])
+    ```
 
 1.  Given a two-dimensional array `M`, create a new two-dimensional array containing only the *columns* of `M` where at least one of the entries is negative.
 
+
+1. Given an array and a number, find the index of the number in the array that is closest to the number.
+
+    ```
+    x = np.random.randint(100, size=10)
+    x
+        => array([89, 55, 76,  4, 12, 86, 18, 18, 30, 88])
+    get_closest_idx(x, 11)
+        => 4
+    ```
 
 1.  Write a function that converts an  array of shape `(n, 2)` representing Cartesian coordinates of `n` points into a new `(n, 2)` array containing the polar coordinates of those points.
 
@@ -121,3 +148,8 @@ These are in no particular order, so feel free to jump around and solve the prob
 
 
 1.  Given an array `x`, and a two-dimensional array `M` with the same number of columns as the length of `x`, find the row in `M` that makes the smallest angle with `x`.
+
+
+(\*) There is also a work in progress version of this for Pandas, if you are interested in that:
+
+[100 Pandas Exercises](https://github.com/ajcr/100-pandas-puzzles)
