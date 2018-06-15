@@ -4,19 +4,19 @@ The following is a list of short problems you can use to practice your numpy pro
 
 [100 Numpy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
 
-You may have to look up some numpy methods we didn't cover in class to solve some of the exercises.  If you ever find youself thinking
+You may have to look up some numpy methods we didn't cover in class to solve some of the exercises.  If you ever find yourself thinking
 
-> I wonder if there's just a fuction in `numpy` that does <thing>
+> I wonder if there's just a function in `numpy` that does <thing>
 
-there is usually a pretty good chance that there actually is.  Don't hesitate to expore the numpy documenation and stack-overflow, this is a very improtant part a building your knowlege base as a python user.
+there is usually a pretty good chance that there actually is.  Don't hesitate to explore the numpy documentation and stack-overflow, this is a very important part a building your knowledge base as a python user.
 
 
 ## Puzzles
 
-These are in no particular order, so feel free to jump around and solve the problems that seem most appealing / benificial / fun for you.  Some of these depend on knowledge that we will cover in class later in the course, so feel free to skip problems and come back to them if anything is unfamiliar to you!
+These are in no particular order, so feel free to jump around and solve the problems that seem most appealing / beneficial / fun for you.  Some of these depend on knowledge that we will cover in class later in the course, so feel free to skip problems and come back to them if anything is unfamiliar to you!
 
 
-1. Write a function that creates a **column vector** (an array of shape (1, n)) containing the squence of numbers 0, 1, 2, ..., n-1:
+1. Write a function that creates a **column vector** (an array of shape (1, n)) containing the sequence of numbers 0, 1, 2, ..., n-1:
 
     ```
     column_vector(3)
@@ -84,7 +84,7 @@ These are in no particular order, so feel free to jump around and solve the prob
     ```
 
 
-1. Write a dunction that creates a square two-dimensional array of zeros, but with ones on the diagonals immediately below and above the main diagonal.  For example, when `n=5`, you should create the following two-dimensional array
+1. Write a function that creates a square two-dimensional array of zeros, but with ones on the diagonals immediately below and above the main diagonal.  For example, when `n=5`, you should create the following two-dimensional array
 
     ```
     ones_above_and_below_diagonal(5)
