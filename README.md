@@ -157,7 +157,7 @@ These are in no particular order, so feel free to jump around and solve the prob
     ```
     x = np.array([[0, 1], [1, 0], [1, 1]])
     cartesian_to_polar(x)
-        => np.array([1, np.pi], [1, 0], [np.sqrt(2), np.pi / 4])
+        => np.array([1, np.pi / 2], [1, 0], [np.sqrt(2), np.pi / 4])
     ```
 
 1.  Given an array `x`, and a two-dimensional array `M` with the same number of columns as the length of `x`, find the row in `M` that makes the smallest angle with `x`.
