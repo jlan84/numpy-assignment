@@ -58,7 +58,7 @@ These are in no particular order, so feel free to jump around and solve the prob
     ```
     x = np.array([1,    2,    3,     4,    5,     6])
     y = np.array([10,   20,   30,    40,   50,    60])
-    b = np.array([True, True, Flase, True, False, True])
+    b = np.array([True, True, False, True, False, True])
     select_from_two_arrays(x, y, b):
         => np.array(1, 2, 30, 4, 50, 6])
     ```
@@ -157,7 +157,7 @@ These are in no particular order, so feel free to jump around and solve the prob
     ```
     x = np.array([[0, 1], [1, 0], [1, 1]])
     cartesian_to_polar(x)
-        => np.array([1, np.pi], [1, 0], [np.sqrt(2), np.pi / 2])
+        => np.array([1, np.pi], [1, 0], [np.sqrt(2), np.pi / 4])
     ```
 
 1.  Given an array `x`, and a two-dimensional array `M` with the same number of columns as the length of `x`, find the row in `M` that makes the smallest angle with `x`.
