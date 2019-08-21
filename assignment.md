@@ -16,7 +16,7 @@ there is usually a pretty good chance that there actually is.  Don't hesitate to
 These are in no particular order, so feel free to jump around and solve the problems that seem most appealing / beneficial / fun for you.  Some of these depend on knowledge that we will cover in class later in the course, so feel free to skip problems and come back to them if anything is unfamiliar to you!
 
 
-1. Write a function that creates a **column vector** (an array of shape (1, n)) containing the sequence of numbers 0, 1, 2, ..., n-1:
+1. Write a function that creates a **column vector** (an array of shape (n, 1)) containing the sequence of numbers 0, 1, 2, ..., n-1:
 
     ```
     column_vector(3)
