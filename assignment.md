@@ -60,7 +60,7 @@ These are in no particular order, so feel free to jump around and solve the prob
     y = np.array([10,   20,   30,    40,   50,    60])
     b = np.array([True, True, False, True, False, True])
     select_from_two_arrays(x, y, b):
-        => np.array(1, 2, 30, 4, 50, 6])
+        => np.array([1, 2, 30, 4, 50, 6])
     ```
 
 1. Write a function that compute the sum of squared differences between two arrays:
