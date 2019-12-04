@@ -102,7 +102,7 @@ These are in no particular order, so feel free to jump around and solve the prob
 
     ```
     checkerboard(5)
-        => np.aray([
+        => np.array([
       [1, 0, 1, 0, 1],
       [0, 1, 0, 1, 0],
       [1, 0, 1, 0, 1],
