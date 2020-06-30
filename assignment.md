@@ -15,6 +15,7 @@ You may have to look up some numpy methods we didn't cover in class to solve som
 there is a pretty good chance the answer is "yes".  Don't hesitate to explore the numpy documentation and stack-overflow; this is a very important part a building your knowledge base as a python user.
 
 ## Basic
+### Part 1
 
 1. Write a function that creates a **column vector** (an array of shape (n, 1)) containing the sequence of numbers 0, 1, 2, ..., n-1:
 
@@ -73,6 +74,7 @@ there is a pretty good chance the answer is "yes".  Don't hesitate to explore th
     ```
 
 ## Advanced
+### Part 2
 
 1. Write a function that consumes a two-dimensional numpy array (so, a matrix), and a label which is either "row" or "column".  The function should return a one-dimensional numpy array (vector) with either the row or column averages.
 
@@ -154,6 +156,7 @@ there is a pretty good chance the answer is "yes".  Don't hesitate to explore th
    ```
 
 ## Extra Credit
+### Part 3
 
 1.  Write a function that converts an  array of shape `(n, 2)` representing Cartesian coordinates of `n` points into a new `(n, 2)` array containing the polar coordinates of those points.
 
