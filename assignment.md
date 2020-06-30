@@ -1,20 +1,20 @@
-# Numpy Puzzles
+# Numpy
+
+## Introduction
 
 The following is a list of short problems you can use to practice your numpy programming.  Some of them we made up, and some of them come from the following large list (\*):
 
 [100 Numpy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
 
+You should solve these without using loops, using functions or methods in numpy itself. If done
+correctly, most of these functions will be a single line and most will be very short.
 You may have to look up some numpy methods we didn't cover in class to solve some of the exercises.  If you ever find yourself thinking
 
 > I wonder if there's just a function in `numpy` that does <thing>
 
-there is usually a pretty good chance that there actually is.  Don't hesitate to explore the numpy documentation and stack-overflow, this is a very important part a building your knowledge base as a python user.
+there is a pretty good chance the answer is "yes".  Don't hesitate to explore the numpy documentation and stack-overflow; this is a very important part a building your knowledge base as a python user.
 
-
-## Puzzles
-
-These are in no particular order, so feel free to jump around and solve the problems that seem most appealing / beneficial / fun for you.  Some of these depend on knowledge that we will cover in class later in the course, so feel free to skip problems and come back to them if anything is unfamiliar to you!
-
+## Basic
 
 1. Write a function that creates a **column vector** (an array of shape (n, 1)) containing the sequence of numbers 0, 1, 2, ..., n-1:
 
@@ -23,7 +23,7 @@ These are in no particular order, so feel free to jump around and solve the prob
         => [[0], [1], [2]]
     ```
 
-1. Write a function that creates an array of random floating point numbers between zero and one of a given shape:
+1. Write a function that creates an array of random floating point numbers between zero and one of a given shape, that will return something like:
 
     ```
     random_array(4, 3)
@@ -72,6 +72,7 @@ These are in no particular order, so feel free to jump around and solve the prob
         => 40
     ```
 
+## Advanced
 
 1. Write a function that consumes a two-dimensional numpy array (so, a matrix), and a label which is either "row" or "column".  The function should return a one-dimensional numpy array (vector) with either the row or column averages.
 
@@ -152,6 +153,8 @@ These are in no particular order, so feel free to jump around and solve the prob
       [-1.5, -0.5,  0.5,  1.5]])
    ```
 
+## Extra Credit
+
 1.  Write a function that converts an  array of shape `(n, 2)` representing Cartesian coordinates of `n` points into a new `(n, 2)` array containing the polar coordinates of those points.
 
     ```
@@ -162,6 +165,7 @@ These are in no particular order, so feel free to jump around and solve the prob
 
 1.  Given an array `x`, and a two-dimensional array `M` with the same number of columns as the length of `x`, find the row in `M` that makes the smallest angle with `x`.
 
+Do additional problems from [100 Numpy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
 
 (\*) There is also a work in progress version of this for Pandas, if you are interested in that:
 
