@@ -6,7 +6,7 @@ The following is a list of short problems you can use to practice your numpy pro
 
 [100 Numpy Exercises](http://www.labri.fr/perso/nrougier/teaching/numpy.100/)
 
-You should solve these without using loops, using functions or methods in numpy itself. If done
+You should solve these without using loops, you should be using the functions or methods in numpy itself. If done
 correctly, most of these functions will be a single line and most will be very short.
 You may have to look up some numpy methods we didn't cover in class to solve some of the exercises.  If you ever find yourself thinking
 
